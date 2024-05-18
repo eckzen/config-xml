@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuracion>
+    <!-- Config de la Base de Datos -->
+    <base_de_datos>
+        <host>localhost</host>
+        <puerto>8080</puerto>
+        <nombre>mi_basededatos</nombre>
+        <root>Root</root>
+        <usuario>mi_usuario</usuario>
+        <pass>mi_contrasena</pass>
+    </base_de_datos>
+
+    <!-- Configuración del servidor web -->
+    <servidor>
+        <puerto>8080</puerto>
+        <ssl_habilitado>true</ssl_habilitado>
+        <ruta_clave_privada>/ruta/a/clave_privada.pem</ruta_clave_privada>
+        <ruta_certificado>/ruta/a/certificado.pem</ruta_certificado>
+        <max_conexiones_simultaneas>100</max_conexiones_simultaneas>
+        <tiempo_espera_conexion>300</tiempo_espera_conexion>
+    </servidor>
+
+    <!-- Configuración del Logging -->
+    <logging>
+        <nivel_log>info</nivel_log>
+        <ruta_archivo_log>/ruta/a/archivo.log</ruta_archivo_log>
+    </logging>
+</configuracion>
